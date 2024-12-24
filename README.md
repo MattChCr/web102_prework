@@ -36,18 +36,21 @@ section or the games section regardless of where they are on the page.
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='walkthrough.gif' title='Video Walkthrough' width='100%' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
+
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+* When I was first creating the game-cards, the images would expand past the white rectangles, at first I was extremely lost because I had followed the instructions fine but in the end I just had to adjust the CSS.
+
+* Creating the navigation bar was tricky since I wanted to allow it to follow the user without the entire header doing the same. I had to play with the CSS quite a bit to get it to look the way I wanted while not looking out of place on the website.
+
+* I had a small issue with the navigation bar creating new tabs when navigating to an element on the same page, I didn't realize that using '_self' with an element id would produce the opposite effect that i wanted. After a bit of research I was able to resolve issue easily.
+
+* The most difficult thing for me was the search bar, I haven't had much practice creating something like it for a website but I knew I could use the filter method to get the desired function. There was a lot of trial and error in connecting the html and javascript, specficially with the eventListeners, but it works exactly as I wanted it to now.
 
 ## License
 
