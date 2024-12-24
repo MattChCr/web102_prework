@@ -4,7 +4,7 @@ Submitted by: **Matthew Chavez Cruz**
 
 **Sea Monster Website** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **6** hours spent in total 
+Time spent: **9** hours spent in total 
 
 ## Required Features
 
@@ -16,8 +16,6 @@ The following **required** functionality is completed:
 * [x] The Our Games section has three buttons that allow the user to display only unfunded games, only funded games, or all games.
 
 The following **optional** features are implemented:
-
-* [x] List anything else that you can get done to improve the app functionality!
 
 * [x] Changed the browser icon so the website's tab is easily identifiable.
 * [x] Adjusted some of the colors on the website to be more appealing.
