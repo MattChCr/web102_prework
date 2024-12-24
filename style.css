@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: #5d6773;
 }
 
 #tentacles {
@@ -11,17 +11,21 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #2e3339;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
     margin-right: -10px;
     margin-top: -10px;
+    color: white;
 }
 
 .stats-container {
+    align-items: center;
     display: flex;
 }
+
+
 
 .stats-card {
     background-color: #a8b0bc;
@@ -30,6 +34,11 @@ body {
     margin: 1%;
     width: 100%;
     text-align: center;
+}
+
+.stats-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px lightblue;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -52,14 +61,24 @@ body {
     background-color: #FFFFFF;
     padding: 1%;
     margin: 1%;
-    width: 300px;
+    width: 250px;
     text-align: center;
     border-radius: 7px;
 }
 
+.game-text {
+    color: black;
+    text-decoration: none;
+}
+
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 20px lightblue;
+}
+
+.game-text:hover {
+   text-decoration: underline;
+   color:#2e3339;
 }
 
 #button-container {
@@ -72,4 +91,50 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px lightblue;
+}
+
+.general-text {
+    padding-left: 1%;
+}
+
+.general-text input[type=text] {
+    margin-left: 8px;
+    padding: 6px;
+    border: none; 
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.nav-container {
+    float:right;
+    z-index: 99;
+    border-radius: .5em;
+    position:sticky;
+    left: 60em;
+    top: 1.2em;
+    background-color: #2e3339;
+    padding: 1em;
+    max-width: 90%;
+    margin-top: -7em;
+    margin-right: 6%;
+}
+
+.navbar a {
+    font-size: 1.9vw;
+    font-weight: bold;
+    margin-left: -5px;
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 8px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
 }
